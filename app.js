@@ -1,5 +1,6 @@
 const listaDeAmigos = [];
 const inputNome = document.getElementById('amigo');
+const inputNumero = document.querySelector("#amigo");
 
 inputNumero.addEventListener("keypress", function(e){
   const keyCode = (e.keyCode ? e.keyCode : e.wich);
@@ -25,5 +26,10 @@ function atualizarLista(){
     li.textContent = nomeTexto;
     listaNome.appendChild(li);
   })
+}
 
+function sortearAmigo(){
+    const indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
+    const nomeSorteado = listaDeAmigos[indiceAleatorio];
+    document.getElementById('resultado').textContent = `Nome sorteado: ${nomeSorteado}`;
 }
