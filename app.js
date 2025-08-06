@@ -1,6 +1,14 @@
 const listaDeAmigos = [];
 const inputNome = document.getElementById('amigo');
 
+inputNumero.addEventListener("keypress", function(e){
+  const keyCode = (e.keyCode ? e.keyCode : e.wich);
+  if (keyCode > 47 && keyCode < 58){
+    e.preventDefault();
+  }
+})
+
+
 function adicionarAmigo() {
   const nomeTexto = inputNome.value.trim();
   listaDeAmigos.push(nomeTexto);
