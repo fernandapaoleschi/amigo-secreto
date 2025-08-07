@@ -79,7 +79,7 @@
 
 <ul>
   <li><strong>Nome:</strong> Nanda</li>
-  <li><strong>GitHub:</strong> <a href="https://github.com/seu-usuario">@seu-usuario</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/seu-usuario">@fernandapaoleschi</a></li>
 </ul>
 
 ---
@@ -91,3 +91,4 @@
 ---
 
 <p align="center">⭐ Se você gostou, deixe uma estrela no repositório!</p>
+
