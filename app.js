@@ -9,7 +9,7 @@ inputNumero.addEventListener("keypress", function (e) {
     }
 })
 
-
+    
 function adicionarAmigo() {
 
     const nomeTexto = inputNome.value.trim();
